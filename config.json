@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://anneherz.github.io/logo/",
+    "link": "https://anneherz.github.io/ProM/detail/contact.html",
+    "text": "Anne Herzberg"
+  },
+  "text": {
+    "more": "This 2‐mode network comprises 84 nodes of the node type ‘tombs’ and 270 nodes of the node type ‘persons’. From all tombs included into the network, there are only six tombs that cannot be related to a person, which means that their owners remain anonymous. With these exceptions all of the tomb nodes are connected to at least one person. To be able to distinguish between tomb owners and other individuals attested in the same tomb, the owner is represented by a bigger node. From all tombs included to the network 57% are connected to only one person, while 36 tombs show edges to more than one individual. \nAll persons that show a detectable connection to a person attested in a Memphite tomb complex (either genealogical or based on attestations on the same object) have been included to the network as well. This ensures that objects that originally were part of the tomb’s decoration or equipment, later transferred to museum collections all over the world, can be included to the present study. By that means, the number of network members has increased up to 692 persons, which means that the number of network members includes nearly a third of all persons recorded in the present data collection. Although most of the tomb nodes remain isolated on the one hand, new cross-connections have been created on the other. In contrast to the first network, those new connections are not represented as direct edges. That means the tombs are not related to each other in a direct way but by an intermediate node. For example, the sXA.w n.j pr HD: scribe of the treasury Nebra is depicted in Maya’s tomb. However, he is also depicted in the adjacent tomb complex of his father, the chief of the royal Ipet, Pay, and thus links the tombs of Maya and Pay – as well as the tomb owners themselves – to each other indirectly. ",
+    "intro": "2-mode network showing identified Memphite tomb chapels (green nodes) and persons attested in Memphite tombs as well as their direct related edges.",
+    "title": "Memphite Tombs II"
+  },
+  "legend": {
+    "edgeLabel": "tombs related with persons \u0026 persons related with persons",
+    "colorLabel": "red: persons attested in tombs; black: persons related to persons attested in tombs; green: tombs",
+    "nodeLabel": "persons; tombs"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
